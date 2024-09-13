@@ -1,0 +1,100 @@
+.dashboard{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family: "Inter", sans-serif;
+}
+.text h4{
+    font-size: 26px;
+    font-weight:semi-bold;
+}
+.text p{
+    font-size:14px;
+    margin-left:4px;
+    margin-top:4px;
+    color:#697586;
+}
+
+.dashboard-buttons{
+    width:120px;
+    height:44px;
+    border: 1px solid #E3E8EF;
+    gap:8px;
+    font-weight:bold;
+    border-radius:6px;
+}
+.one{
+    margin-right:12px;
+    text-align: center;
+}
+.icon{
+    height:10px;
+    width: 10px;
+    color:#364152;
+    margin-right:6px;
+}
+.two{
+    background:#202939;
+    color:#FFFFFF;
+}
+.ContentTop-btn{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:12px;
+    
+}
+.btn-right{
+    color:#364152;
+    font-size:12px;
+}
+.btn-right button{
+    width:70px;
+    height:30px;
+    border: 1px solid #E3E8EF;
+}
+
+.One{
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    font-size:12px;
+}
+.Two{
+    font-size:12px;
+}
+.Three{
+    font-size:12px;
+}
+
+.Four{
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    font-size:12px;
+}
+.btn-calendar{
+    height:40px;
+    width:140px;
+    border:1px solid #E3E8EF;
+    margin-right:12px;
+}
+.btn-left{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.btn-Filter {
+    height:40px;
+    width:100px;
+    border:1px solid #E3E8EF;
+}
+.bt-icon{
+    margin-right:8px;
+    height:12px;
+    width:12px;
+}
+.btn-Filter span{
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:1px;
+}
