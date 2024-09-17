@@ -1,3 +1,4 @@
+import Balance from "../Balance/Balance";
 import Deposit from "../Deposit/Deposit";
 import MainAccount from "../MainAccount/MainAccount";
 import OtherAccount from "../OtherAccount/OtherAccount";
@@ -16,10 +17,10 @@ const ContentMain = () => {
       </div>
       <div className="main-two">
         <div className="box-three">
-          <Deposit />{" "}
+          <Deposit />
         </div>
         <div className="box-four">
-            
+            <Balance/>
         </div>
       </div>
     </div>

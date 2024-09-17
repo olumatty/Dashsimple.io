@@ -48,4 +48,19 @@ export const transactions = [
         mail: 'ifa@gmail.com',
         amount: '+ Rp32,000'
     },
+    {
+        id:7,
+        square:"",
+        description: 'BCA ending in 1111', 
+        mail: 'Expiry 02/2026',
+        amount: '+ Rp50,000'
+    },
+    {
+        id:8,
+        square:"",
+        description: 'Apple Pay', 
+        mail: 'Expiry 11/2024',
+        amount: ' + Rp85,000'
+    },
+    
 ]

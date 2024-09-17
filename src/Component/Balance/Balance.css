@@ -1,0 +1,10 @@
+.c5{
+    height:350px;
+}
+#chart{
+    height:280px;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    margin-left:40px;
+}
