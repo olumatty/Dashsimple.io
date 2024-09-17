@@ -1,4 +1,5 @@
 import Balance from "../Balance/Balance";
+import Card from "../Card/Card";
 import Deposit from "../Deposit/Deposit";
 import MainAccount from "../MainAccount/MainAccount";
 import OtherAccount from "../OtherAccount/OtherAccount";
@@ -20,7 +21,10 @@ const ContentMain = () => {
           <Deposit />
         </div>
         <div className="box-four">
-            <Balance/>
+          <Balance />
+        </div>
+          <div className="box-five">
+            <Card />
         </div>
       </div>
     </div>

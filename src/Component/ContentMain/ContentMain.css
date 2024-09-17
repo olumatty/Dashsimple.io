@@ -1,5 +1,6 @@
 .contentmain{
     display:flex;
+    flex-wrap:wrap;
 }
 .main-one{
     display:grid;
@@ -18,20 +19,24 @@
     grid-row:span 1;
 }
 .main-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width:100%;
 }
 .box-three{
     grid-column: span 1;
     grid-row:span 3;
-    width:35%;
-    float:left;
+    width:480px;
     min-height:220px;
 }
 .box-four{
     grid-column:span 1;
-    grid-row:span 2;
-    width:61%;
-    float:left;
-    margin-left:46px;
-    min-height:220px;
-    max-width:100%;
+    grid-row:span 1;
+    width:700px;
+    margin-bottom:28px;
+}.
+.box-five:{
+    grid-column:span 1;
+    grid-row: span:2;
+
 }
