@@ -1,5 +1,129 @@
-.grid-c-icon img{
-    height:23px;
-    width: 19px;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.c6{
+    font-family: "Inter", sans-serif;
+}
+.title h4{
+    color:#121926;
+    font-weight: 400;
+}
+.Cards{
+    display:flex;
+    gap:20px;
+}
+.Card-one{
+    margin-top:12px;
+    width:300px;
+    height:165px;
+    background:linear-gradient(rgba(21, 94, 239, 1),rgba(0, 53, 158, 1));
+    padding:16px;
+    color:white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.grid-c-title{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
 
+.grid-details{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right:90px;
+    margin-top:60px;
+    font-size:11px;
+}
+.grid-icon{
+    color:#FFFFFF;
+    height:21px;
+    width:18px;
+}
+.grid-c-title h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.grid-account{
+    margin-top:4px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.grid-account span{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.card-logo{
+    display: flex;
+    drop-shadow: rgba(0, 0, 0, 0.25);
+    background:rgba(255, 255, 255, 0.1);
+    width:40px;
+    height:30px;
+    align-items:center;
+    border-radius: 4px;
+}
+.logo-shape1, .logo-shape2{
+    width:17px;
+    height: 17px;
+    border-radius:100%;
+    align-items:center;
+    justify-content:center;
+}
+.logo-shape1{
+    background-color:rgba(237, 0, 6, 1);
+    z-index:0;
+    margin-left:4px;
+    margin-right:-4px
+}
+.logo-shape2{
+    background:rgba(255, 94, 0, 1);
+}
+.Card-two{
+    margin-top:12px;
+    width:300px;
+    height:170px;
+    background:linear-gradient(rgba(16, 24, 40, 1),rgba(71, 84, 103, 1));
+    padding:16px;
+    color:white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.grid-progress-bar{
+    margin-top:16px;
+}
+.progress-title{
+    gap:8px;
+}
+.header{
+    font-size: 13px;
+    color: rgba(54, 65, 82, 1)
+}
+.money{
+    font-size: 13px;
+    color:rgba(105, 117, 134, 1);
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+.progress-bar,.Progress2-bar{
+    height:10px;
+    border-radius: 100vh;
+    margin-top:8px;
+    background-color:rgba(239, 244, 255, 1);
+}
+.progress-bar-one{
+    height:10px;
+    width: 20%;
+    background-color:rgba(21, 94, 239, 1);
+    border-radius: 100vh;
+}
+.progress2-bar-one{
+    height:10px;
+    width: 80%;
+    background-color:rgba(21, 94, 239, 1);
+    border-radius: 100vh;
 }

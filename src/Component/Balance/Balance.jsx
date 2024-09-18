@@ -17,15 +17,17 @@ const Balance = () => {
     datasets: [
       {
         data: [2, 4, 10, 6, 8, 10, 5, 10, 15, 12, 8, 10],
-        backgroundColor: 'rgba(75, 0, 130, 0.8)',
+        backgroundColor: 'rgba(155, 81, 224, 1)',
+        borderRadius:8
       },
       {
-        data: [4, 6, 15, 8, 10, 10, 10, 10, 20, 10, 12, 12],
-        backgroundColor:'rgba(147, 112, 219, 0.6)',
+        data: [4, 6, 15, 8, 10, 10, 10, 10, 10, 10, 12, 12],
+        backgroundColor:'rgba(187, 107, 217, 1)',
+        borderRadius:8
       },
       {
         data: [6, 8, 15, 10, 12, 5, 8, 15, 10, 15, 15, 10],
-        backgroundColor: 'rgba(218, 112, 214, 0.4)',
+        backgroundColor: 'rgba(232, 198, 244, 1)',
         borderRadius:4
       },
     ],
