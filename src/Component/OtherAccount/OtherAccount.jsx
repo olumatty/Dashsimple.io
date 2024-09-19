@@ -8,7 +8,7 @@ const OtherAccount = () => {
     const percentageChange = 250;
     return (
         <div className="Main-grid grid-common1 c2">
-      <div className="dashboard-grid">
+      <div className="dashboard1-grid">
         <div className="piechart">
           <div
             style={{
@@ -35,11 +35,11 @@ const OtherAccount = () => {
         </div>
         <div className="details">
           <div className="Account">
-            <span className="Account_name">Akun sampingan</span>
+            <span className="Account_name">Akun utama</span>
             <LuMoreVertical className="icons" />
           </div>
           <p>Saldo saat ini </p>
-          <div className="amount">
+          <div className="amount1">
             <h4>Rp11.000.000</h4>
             <div className="progress1">
               <LuArrowDown className="icon" />

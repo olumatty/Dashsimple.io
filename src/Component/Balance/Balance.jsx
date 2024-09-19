@@ -85,7 +85,7 @@ return (
       <div className="chart">
       <div>
               <div id="chart">
-              <Bar data={data} options={options} />;
+              <Bar data={data} options={options} />
               </div>
               <div id="html-dist"></div>
             </div>

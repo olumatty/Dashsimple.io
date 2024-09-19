@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  font-family: "Inter", sans-serif  
+  font-family: "Inter", sans-serif;
+  width:566px;
 }
 .dashboard-grid {
   display: flex;
@@ -64,4 +65,31 @@
     width:12px;
     height:12px;
     color:#16B364;
+}
+@media screen and (max-width:700px){
+  .c1 {
+    width:566px;
+  }
+}
+@media screen and (max-width:500px){
+  .c1 {
+    width:365px;
+    display:block;
+  }
+  .dashboard-grid{
+    display:block;
+    gap: 10px;
+  }
+  .details {
+    display: block;
+    margin-top:8px;
+    margin-left: 22px;
+    flex: 1;
+  }
+  .amount {
+    margin-top:4px;
+  }
+  .details p{
+    margin-top:14px;
+}
 }

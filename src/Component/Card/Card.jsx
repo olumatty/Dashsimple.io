@@ -4,7 +4,7 @@ import { LuMoreVertical } from "react-icons/lu";
 import { PiContactlessPaymentLight } from "react-icons/pi";
 const Card = () => {
   return (
-    <div className="Main-grid grid-common1 c6">
+    <div className="Main-grid grid-common1 c8">
       <div className="title">
         <h4>Kartu Anda</h4>
         <LuMoreVertical className="icons" />

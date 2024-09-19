@@ -2,7 +2,7 @@
     display:flex;
     flex-direction:column;
     font-family: "Inter", sans-serif;+
-    width:260px;
+    width:460px;
 }
 .title{
     display:flex;
@@ -18,14 +18,14 @@
     display:flex;
     flex-direction:column;
     justify-content:space-betweem;
-    margin-top:28px;
+    margin-top:34px;
 }
 .grid-item{
     display:flex;
-    margin-bottom:32px;
-    row-gap:32px;
+    margin-bottom:34px;
+    row-gap:34px;
     justify-content:space-between;
-    border-bottom: 1px solid #E3E8EF;0. 
+    border-bottom: 1px solid #E3E8EF; 
 }
 .grid-item-l{
     display:flex;
@@ -35,7 +35,7 @@
 .grid-item-l span{
     display:block;
     font-weight:400;
-    margin-top:5px;
+    margin-top:7px;
     font-size:13px;
     color:#8a8587;
 }
@@ -55,4 +55,19 @@
 .grid-item-l .text{
     color:#7103A0;
     font-weight:500;
+}
+@media screen and (max-width: 500px){
+    .grid-square{
+        width:36px;
+        height:28px;
+    }
+    .grid-items{
+        margin-top:20px;
+    }
+    .grid-item{
+        display:flex;
+        margin-bottom:18px;
+        row-gap:30px;
+    }
+    
 }

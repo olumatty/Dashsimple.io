@@ -55,12 +55,5 @@ export const transactions = [
         mail: 'Expiry 02/2026',
         amount: '+ Rp50,000'
     },
-    {
-        id:8,
-        square:"",
-        description: 'Apple Pay', 
-        mail: 'Expiry 11/2024',
-        amount: ' + Rp85,000'
-    },
     
 ]

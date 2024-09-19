@@ -5,7 +5,7 @@
     padding: 20px;
     font-family: "Inter", sans-serif;
   }
-  .dashboard-grid {
+  .dashboard1-grid {
     display: flex;
     gap: 20px;
   }
@@ -16,12 +16,12 @@
     margin-left: 24px;
     flex: 1;
   }
-  .Account {
+  .Account1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .amount {
+  .amount1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@
       height:22px;
       width:310px;
   }
-  .icons{
+  .icons2{
       height:20px;
       width:20px;
       align-items:center;
@@ -51,17 +51,30 @@
       font-size:14px;
       color:#697586;
   }
-  .amount h4{
+  .amount1 h4{
       font-size:30px;
       font-weight:500;
   }
   .progress1 span{
       font-size:14px;
-      line-height:20px;
       color:#B42318;
+      line-height:20px;
   }
   .progress1 .icon{
       width:12px;
       height:12px;
       color:#F04438;
+  }
+  @media screen and (max-width: 800px){
+    .c2 {
+      margin-top: 26px;
+      display:block;
+      width:365px;
+    }
+    .dashboard1-grid {
+      display:block;
+      align-items:center;
+      justify-content:center;
+    }
+    
   }

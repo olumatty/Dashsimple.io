@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-.c6{
+.c8{
     font-family: "Inter", sans-serif;
 }
 .title h4{
@@ -126,4 +126,19 @@
     width: 80%;
     background-color:rgba(21, 94, 239, 1);
     border-radius: 100vh;
+}
+
+@media screen and (max-width: 800px){
+    .Cards{
+        display:block;
+        height:520px;
+    }
+    .c8{
+       margin-top:26px;
+    }
+}
+@media screen and (max-width:800px){
+    .Cards{
+        height:480px;
+    }
 }

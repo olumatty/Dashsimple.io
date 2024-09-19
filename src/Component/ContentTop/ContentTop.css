@@ -1,3 +1,15 @@
+.menu{
+  display: none;
+}
+.nav-list-item-main{
+  display:none;
+  justify-content: space-between;
+}
+.menu-icon{
+  width:33px;
+  height:24px;
+}
+
 .dashboard {
   display: flex;
   justify-content: space-between;
@@ -92,7 +104,7 @@
   height: 12px;
   width: 12px;
 }
-.btn-Filter span {
+.btn-Filter span , .btn-calendar span{
   font-size: 12px;
   font-weight: bold;
   text-align: center;
@@ -115,7 +127,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .dashboard {
     display: block;
     align-items: center;
@@ -162,5 +174,64 @@
     justify-content:none;
     align-items:none;
     margin-top: 12px;
+  }
+}
+@media screen and (max-width:500px){
+  .dashboard {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+  }
+  .nav-list-item-main{
+    display:flex;
+    justify-content: space-between;
+  }
+  .menu-icon{
+    width:33px;
+    height:24px;
+  }
+  .Menu{
+    margin-left:5px;
+    display: flex;
+    justify-content:space-between;
+  }
+  .circle{
+    width:35px;
+    height: 35px;
+    border-radius: 50px;
+    background:#D9D9D9;
+  }
+  .nav-list-item-main{
+    display:flex;
+  }
+  .Menu-icon{
+    width:33px;
+    height:24px;
+  }
+  .text h4 {
+    font-size: 30px;
+    font-weight: semi-bold;
+    drop-shadow:rgba(0, 0, 0, 0.25)
+  }
+  .text p{
+    font-size: 16px;
+  }
+  .buttons{
+    margin-top:8px;
+  }
+  .ContentTop-btn {
+    margin-top:22px;
+  }
+  .dashboard-buttons {
+    gap: 10px;
+  }
+  .btn-left {
+   margin-top:14px;
+   display:block;
+  }
+  .btn-Filter{
+    margin-left:12px;
   }
 }

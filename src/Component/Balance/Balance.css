@@ -1,6 +1,6 @@
 .c5{
-    height:350px;
-    font-family: "Inter", sans-serif;
+    f
+    ont-family: "Inter", sans-serif;
 }
 #chart{
     height:280px;
@@ -8,4 +8,40 @@
     align-items:center;
     justify-content:center;
     margin-left:40px;
+}
+.chart{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:40px;
+}
+@media screen and (max-width: 800px){
+    #chart{
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        margin-left:0;
+        padding-left: 0px; 
+    }
+    .c5{
+        margin-top:26px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .chart{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-left:40px;
+    }
+    
+    #chart{
+        height:160px;
+        width:90%;
+        align-items:center;
+        justify-content:center;
+        margin-left:40px;
+        margin-right:120px;
+    }
 }

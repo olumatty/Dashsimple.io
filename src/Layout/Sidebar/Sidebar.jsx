@@ -1,5 +1,4 @@
 import {
-  LuMenu,
   LuHome,
   LuSignalHigh,
   LuLayers,
@@ -15,13 +14,6 @@ const Sidebar = () => {
     <div className="sidebar">
       <nav className="navigation">
         <ul className="nav-list">
-          <li className="nav-list-item">
-            <a href="#">
-              <button className="menu-button">
-                <LuMenu />
-              </button>
-            </a>
-          </li>
           <li className="nav-list-item">
             <a href="#">
               <button>
