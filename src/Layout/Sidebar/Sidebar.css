@@ -1,59 +1,69 @@
-.sidebar{
-    background-color:#FFFFF;
-    width:70px;
-    padding:6px 20px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-    align-items:center;
-
+.sidebar {
+  background-color: #FFFFF;
+  width: 70px;
+  padding: 8px 18px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
 }
-.navigation{
-    margin-top:8px;
-    font-weight:bold;
+.navigation {
+  margin-top: 6px;
+  font-weight: bold;
 }
 
-.img-fit-cover{
-    width:40px;
-    height:40px;
-    border-radius:100%;
-    overflow:hidden;
-    margin-top:22px;
-    margin-right:24px;
+.img-fit-cover {
+  border-top: 1px solid #e3e8ef;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 24px;
 }
 .nav-list-item {
-    display:flex;
-    margin-bottom: 30px;
-    margin-right: 10px;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  margin-bottom: 24px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
-.nav-list-item{
-    display: flex;
-    align-items: center;
-    justify-content: flex;
-    cursor:pointer;
+.nav-list-item a:hover {
+  background: FCFCFD;
+  border: 1px solid #697586;
+  width: 60px;
+  height: 60px;
+  margin-left: 12px;
 }
-.icon{
-    width:18px;
-    height:18px;
-    color: #697586;
-    margin-left:8px;
+.nav-list-item button {
+  width: 60px;
+  height: 60px;
 }
-.menu-button{
-    display:none;
+.icon {
+  width: 22px;
+  height: 22px;
+  color: #697586;
+  margin-left: 8px;
 }
-.navigation-two{
-    margin-top:160px;
+.menu-button {
+  display: none;
 }
-.nav-list{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+.navigation-two {
+  margin-top: 430px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .img-fit-cover > .nav-list-item {
-    margin-right:10px;
+  margin-right: 10px;
 }
 hr {
-    width:56;
-    height:1px;
+  width: 56;
+  height: 1px;
+}
+@media screen and (max-width:1300px){
+    .navigation-two {
+        margin-top: 400px;
+      }
 }

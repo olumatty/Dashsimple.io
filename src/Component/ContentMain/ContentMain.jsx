@@ -3,6 +3,7 @@ import Card from "../Card/Card";
 import Deposit from "../Deposit/Deposit";
 import MainAccount from "../MainAccount/MainAccount";
 import OtherAccount from "../OtherAccount/OtherAccount";
+import Setting from "../Settings/Setting";
 import "./ContentMain.css";
 
 const ContentMain = () => {
@@ -25,6 +26,9 @@ const ContentMain = () => {
         </div>
           <div className="box-five">
             <Card />
+        </div>
+        <div className="box-six">
+          <Setting/>
         </div>
       </div>
     </div>

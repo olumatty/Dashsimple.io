@@ -1,0 +1,9 @@
+.c7 button{
+    height:40px;
+    width: 160px;
+    border: 1px solid #CDD5DF;
+}
+.c7{
+    display: flex;
+    justify-content: space-between;
+}

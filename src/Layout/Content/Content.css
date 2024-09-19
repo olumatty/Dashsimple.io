@@ -3,3 +3,16 @@
     flex:1;
     padding:32px
     }
+
+    @media screen and (max-width:1400px){
+        .content{
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+    @media screen and (max-width: 1227px){
+        .content{
+            padding-left:8px;
+            padding-right:8px;
+        }
+    }
