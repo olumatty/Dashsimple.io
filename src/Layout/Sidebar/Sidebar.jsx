@@ -7,11 +7,13 @@ import {
   LuUsers,
   LuLifeBuoy,
   LuSettings,
-} from "react-icons/lu";
-import "./Sidebar.css";
-const Sidebar = () => {
+} from "react-icons/lu";  
+import "./Sidebar.css"
+
+const Sidebar = ({sidebarOpen}) => {
+
   return (
-    <div className="sidebar">
+    <div id="sidebar" className={sidebarOpen ? "sidebar-responsive" : " "}>
       <nav className="navigation">
         <ul className="nav-list">
           <li className="nav-list-item">

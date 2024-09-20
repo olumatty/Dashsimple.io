@@ -1,4 +1,4 @@
-.sidebar {
+#sidebar {
   background-color: #FFFFF;
   width: 70px;
   padding: 8px 18px;
@@ -43,6 +43,9 @@
   color: #697586;
   margin-left: 8px;
 }
+.sidebar-change {
+  margin-left: -260px;
+}
 .menu-button {
   display: none;
 }
@@ -71,7 +74,7 @@ hr {
   .navigation-two {
     margin-top: 260vh;
   }
-  .sidebar {
+  #sidebar {
     width: 50px;
     padding: 8px 18px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -79,16 +82,21 @@ hr {
   }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:420px){
   .nav-list-item{
-    display:none;
+    display:grid;
   }
-  .sidebar {
+  #sidebar {
     background-color: #FFFFF;
     width: 0px;
     padding: 0px 0px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
   }
-  
+  .sidebar-responsive{
+    display: inline !important;
+    position: absolute;
+    z-index : 12 !important;
+}
+
 }

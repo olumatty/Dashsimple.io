@@ -1,18 +1,25 @@
 import "./ContentTop.css";
 import { LuCalendar, LuListFilter, LuMenu } from "react-icons/lu";
-const ContentTop = () => {
+
+const ContentTop = ({Opensidebar}) => {
+  
   return (
     <div className="ContentTop">
        <div className="Menu">
           <div className="circle"> </div>
           <li className="nav-list-item-main">
             <a href="#">
-              <button className="Menu-button">
-                <LuMenu className="Menu-icon" />
+              <button
+              className="sidebar-toggle"
+              type="button" 
+              onClick={Opensidebar}
+              >
+                <LuMenu className="Menu-icon"/>
               </button>
             </a>
           </li>
         </div>
+
       <div className="dashboard">
         <div className="text">
           <h4>Your Finance Dashboard</h4>
